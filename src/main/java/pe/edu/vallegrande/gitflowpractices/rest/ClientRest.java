@@ -14,5 +14,9 @@ import java.util.List;
 public class ClientRest {
     private ClientService clientService;
 
+    @GetMapping("/all")
+    public List<Client> getAllClients() {
+        return clientService.getAllClients();
+    }
 
 }
