@@ -1,3 +1,4 @@
 server:
   port: 8080
-
+  servlet:
+    application-display-name: "Sistema de Gestion de Vendas"
