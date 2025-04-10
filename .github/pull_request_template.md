@@ -35,3 +35,6 @@
 
 - [] Código revisado
 - [] Pruebas locales ejecutadas
+=======
+- [x] Código revisado
+- [x] Pruebas locales ejecutadas
