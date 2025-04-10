@@ -10,9 +10,9 @@
 
 ### ✅ Entregables completados
 
-- [x] [Funcionalidad 1]
-- [x] [Funcionalidad 2]
-- [x] [Mejoras o correcciones]
+- [ ] [Funcionalidad 1]
+- [ ] [Funcionalidad 2]
+- [ ] [Mejoras o correcciones]
 
 ---
 
@@ -33,5 +33,8 @@
 
 ### ✅ Checklist
 
+- [] Código revisado
+- [] Pruebas locales ejecutadas
+=======
 - [x] Código revisado
 - [x] Pruebas locales ejecutadas
