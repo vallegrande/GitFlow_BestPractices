@@ -1,0 +1,41 @@
+
+  Id     Duration CommandLine
+  --     -------- -----------
+   1        0.099 Remove-Module -Name PSReadline;$global:_warpOriginalPrompt = $function:global:prompt;if ($PSEdition -eq 'Desktop' …
+   2        1.400  . 'C:\Users\javie\AppData\Local\Programs\Warp\pwsh.ps1'
+   3        0.003 cd ..
+   4        0.040 git clone -b develop https://github.com/vallegrande/websiteStructure.git
+   5        0.067 ls
+   6        6.798 Remove-Item websiteStructure\
+   7        1.047 rmdir websiteStructure -recurse
+   8        0.001 pwd
+   9        5.179 git clone -b develop https://github.com/vallegrande/websiteStructure.git
+  10        0.003 cd websiteStructure\
+  11        2.120 code .
+  12        0.185 cleclear
+  13        0.009 clear
+  14        0.259 git branch
+  15        2.339 git pull
+  16        1.850 git switch main
+  17        0.107 ls
+  18        0.147 git branch -a
+  19        1.046 git switch develop
+  20        0.115 git status
+  21        0.001 clear
+  22       27.479 git flow init
+  23        2.883 git flow feature start new-feature
+  24        0.121 git branch
+  25        0.002 cd ..
+  26        0.977 git clone https://github.com/vallegrande/GitFlow_BestPractices.git
+  27        0.002 cd GitFlow_BestPractices
+  28        0.058 git switch -c develop
+  29        0.020 ls
+  30        1.887 git push origin develop
+  31        0.670 git pull
+  32        0.041 git branch origin develop
+  33        0.952 git pull origin develop
+  34        0.051 git status
+  35        0.123 git branch -a
+  36        0.053 git switch -c feature/sp1_u1_navbar
+  37        0.015 ls
+
